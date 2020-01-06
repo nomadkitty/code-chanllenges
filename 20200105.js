@@ -12,3 +12,8 @@ function amplify2(num) {
     }
     return arr.map(item => item % 4 === 0 ? item*10 : item)
 }
+
+function Go(num) {
+	let str = '-';
+	return str.repeat(num)
+}
