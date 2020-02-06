@@ -7,3 +7,7 @@ function canCapture([yourRook, opponentsRook]) {
 function cars(wheels, bodies, figures) {
 	return wheels < 4 ? 0:Math.min(Math.floor(wheels/4), bodies, Math.floor(figures/2))
 }
+
+function nameShuffle(str) {
+	return str.split(" ").reverse().join(" ")
+}
